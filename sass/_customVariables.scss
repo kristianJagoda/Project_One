@@ -5,7 +5,13 @@ $bootstrap-sass-asset-helper: false !default;
 
 
 //== Colors
-$main-color: #19198C;
+// As hex codes */
+
+$color-primary-0: #0D2C5A;	// Main Primary color */
+$color-primary-1: #345484;
+$color-primary-2: #1E3F70;
+$color-primary-3: #041D41;
+$main-color: lighten(#011026, 10%);
 //
 //## Gray and brand colors for use across Bootstrap.
 

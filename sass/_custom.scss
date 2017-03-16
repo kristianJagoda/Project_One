@@ -1,0 +1,71 @@
+/*-----BODY and HTML ------*/
+
+body {
+    padding-top: 30px;
+
+}
+/*-----HEADER AND NAVIGATION BAR -------*/
+.navbar {
+    .navbar-collapse {
+        text-align: center;
+    }
+
+    .navbar-nav {
+        display: inline-block;
+        float: none;
+    }
+}
+.navbar-default {
+  border: 0;
+}
+
+
+.customizeNavBar {
+    padding-left: 0;
+    padding-right: 0;
+    border-radius: 0;
+}
+/*---HAMBURGER ANIMATION ---*/
+$speed: 200ms;
+$easing: cubic-bezier(0.7, 0, 0, 0.7);
+
+.navbar-toggle {
+  overflow: hidden;
+
+  .icon-bar {
+    transition: opacity, transform;
+    transition-duration: $speed;
+    transition-timing-function: $easing;
+  }
+
+  &:not(.collapsed) {
+    .icon-bar {
+      &:nth-child(1) {
+        transform: translateY(6px) rotate(45deg);
+      }
+      &:nth-child(2) {
+        opacity: 0;
+        transform: translateX(-100%);
+      }
+      &:nth-child(3) {
+        transform: translateY(-6px) rotate(-45deg);
+      }
+    }
+  }
+}
+/*------SECTION 1 -----*/
+.section1 {
+    background-image: linear-gradient( rgba($color-primary-3, 0.5), rgba($color-primary-1, 0.5) ), url("../images/image1.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+}
+.showcase {
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 250px;
+  h1 {
+
+  }
+}

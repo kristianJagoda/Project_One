@@ -1,0 +1,21 @@
+{
+  "name": "project_one",
+  "homepage": "https://github.com/kristianJagoda/Project_One",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Kristian Jagoda"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "font-awesome": "fontawesome#^4.7.0",
+    "bootstrap-sass": "^3.3.7"
+  }
+}
