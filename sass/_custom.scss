@@ -1,7 +1,22 @@
+/* ------ FONT FACES -------- */
+@font-face {
+    font-family: "source-sans-pro";
+    src: url("../fonts/sourcesanspro-regular-webfont.woff") format("woff"), url("../fonts/sourcesanspro-regular-webfont.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "source-serif-pro";
+    src: url("../fonts/sourceserifpro-regular-webfont.woff") format("woff"), url("../fonts/sourceserifpro-regular-webfont.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
 /*-----BODY and HTML ------*/
 
 body {
     padding-top: 30px;
+    font-family: $main_sans_font;
 
 }
 /*-----HEADER AND NAVIGATION BAR -------*/
@@ -19,15 +34,13 @@ body {
   border: 0;
 }
 
-
 .customizeNavBar {
     padding-left: 0;
     padding-right: 0;
     border-radius: 0;
 }
 /*---HAMBURGER ANIMATION ---*/
-$speed: 200ms;
-$easing: cubic-bezier(0.7, 0, 0, 0.7);
+
 
 .navbar-toggle {
   overflow: hidden;

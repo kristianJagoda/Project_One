@@ -1,8 +1,16 @@
+
 $bootstrap-sass-asset-helper: false !default;
 //
 // Variables
 // --------------------------------------------------
+//Hamburger Menu Animation
+$speed: 200ms;
+$easing: cubic-bezier(0.7, 0, 0, 0.7);
 
+
+//fonts
+$main_sans_font: "source-sans-pro", Helvetica, Arial, sans-serif;
+$main_serif_font: "source-serif-pro", "Times New Roman", Times, serif;
 
 //== Colors
 // As hex codes */
