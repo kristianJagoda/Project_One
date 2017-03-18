@@ -19,12 +19,12 @@
 <body>
 
     <header>
-
-        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-            <div class="container-fluid customizeNavBar">
-                <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navigation">
+        <div class="nav-min-height">
+            <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+                <div class="container">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navigation">
 
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
@@ -32,34 +32,43 @@
                 <span class="sr-only">Toggle navigation</span>
                 </button>
 
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="navigation">
+                        <ul class="nav navbar-nav">
+                            <li><a href="#">ABOUT ME</a></li>
+                            <li><a href="#">SKILLS</a></li>
+                            <li><a href="#">EXPERIENCE</a></li>
+                            <li><a href="#">EDUCATION</a></li>
+                            <li><a href="#">CONTACT</a></li>
+                        </ul>
+                    </div>
                 </div>
 
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse" id="navigation">
-                    <ul class="nav navbar-nav">
-                        <li><a href="#">ABOUT ME</a></li>
-                        <li><a href="#">SKILLS</a></li>
-                        <li><a href="#">EXPERIENCE</a></li>
-                        <li><a href="#">EDUCATION</a></li>
-                        <li><a href="#">CONTACT</a></li>
-                    </ul>
-                </div>
-
-        </nav>
+            </nav>
         </div>
+
+        <!---MAIN SECTION --->
+        <section id="showcase">
+
+            <div class="showcase_part1">
+                <h1>Roman Wohflahrt</h1>
+            </div>
+            <div class="showcase_part2">
+                <h2>Senior Software Developer</h2>
+            </div>
+
+        </section>
+
+
+
+
     </header>
-
-    <section class="section1">
-        <div class="container showcase">
-            <h1 class="uppercase">Roman Wohlfahrt</h1>
-            <span>SPAN LINE</span>
-            <p>Software Developer</p>
-
-        </div>
-    </section>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="js/bootstrap.js"></script>
+
 
 </body>
 
