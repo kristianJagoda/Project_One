@@ -10388,10 +10388,20 @@ button.close {
   font-weight: normal;
   font-style: normal;
 }
-/*-----BODY and HTML ------*/
+/*-----BODY, HTML, ROWS ------*/
+html {
+  font-size: 10px;
+}
+
 body {
   padding-top: 30px;
   font-family: "source-sans-pro", Helvetica, Arial, sans-serif;
+  overflow: hidden;
+}
+
+.row {
+  margin-left: 0;
+  margin-right: 0;
 }
 
 /*-----HEADER AND NAVIGATION BAR -------*/
@@ -10401,6 +10411,7 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
+  width: 100vw;
 }
 
 .nav-min-height {
@@ -10429,12 +10440,6 @@ header {
   border: 0;
 }
 
-.customizeNavBar {
-  padding-left: 0;
-  padding-right: 0;
-  border-radius: 0;
-}
-
 /*---HAMBURGER ANIMATION ---*/
 .navbar-toggle {
   overflow: hidden;
@@ -10458,6 +10463,8 @@ header {
 /*----------MAIN SECTION------------*/
 .showcase_part1 h1 {
   font-size: 6rem;
+  font-weight: bolder;
+  letter-spacing: 0.4rem;
   color: #fff;
   text-align: center;
   word-spacing: 0.7rem;
@@ -10465,10 +10472,35 @@ header {
 
 .showcase_part2 h2 {
   font-size: 3rem;
+  letter-spacing: 0.2rem;
   color: #fff;
   font-weight: lighter;
   text-align: center;
   word-spacing: 0.7rem;
+  padding-left: 5px;
+}
+
+.line {
+  margin: 0 auto;
+  height: 4px;
+  width: 60%;
+  background-color: #5093f4;
+}
+
+@media screen and (max-width: 737px) and (orientation: landscape) {
+  .line {
+    width: 80%;
+  }
+}
+@media screen and (min-width: 738px) {
+  .line {
+    width: 40%;
+  }
+}
+@media screen and (min-width: 967px) {
+  .line {
+    width: 350px;
+  }
 }
 
 /*# sourceMappingURL=app.css.map */
