@@ -19,13 +19,27 @@ html {
 body {
     padding-top: 30px;
     font-family: $main_sans_font;
-    overflow: hidden;
+
 }
 
+/*-----ROWS, TITLES -----*/
 .row {
     margin-left: 0;
     margin-right: 0;
 }
+
+.title {
+    margin: 0 0 15px 0;
+    padding: 0;
+    font-size: 2.250em;
+    font-weight: 300;
+    color: #0f1025;
+    text-transform: uppercase;
+    display: block;
+    text-align: center;
+    letter-spacing: 0.1em;
+}
+
 /*---CENTERED LINE ----*/
 .centered-line {
     margin: 0 auto;
@@ -138,4 +152,16 @@ header {
 
 .line1 {
     background-color: lighten($color-primary-3, 50%);
+}
+
+/*---- ABOUT ME ---- */
+.line2 {
+  background-color: #f08b65;
+}
+.my_picture {
+  height: 400px;
+  img {
+    width: 100%;
+    height: 100%;
+  }
 }
