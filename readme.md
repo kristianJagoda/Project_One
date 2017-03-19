@@ -19,5 +19,7 @@ Portfolio website for the client who is a C#, .Net developer.
 * 
 * 
 
+Preview -> (https://kristianjagoda.github.io/Project_One/)
+
 
 
