@@ -11,7 +11,7 @@
     font-weight: normal;
     font-style: normal;
 }
-/*-----BODY, HTML, ROWS ------*/
+/*-----BODY, HTML, ROWS, LINES ------*/
 html {
     font-size: 12px;
 }
@@ -25,6 +25,27 @@ body {
 .row {
     margin-left: 0;
     margin-right: 0;
+}
+/*---CENTERED LINE ----*/
+.centered-line {
+    margin: 0 auto;
+    width: 60%;
+    height: 4px;
+}
+@media screen and (max-width: 737px) and (orientation:landscape) {
+    .centered-line {
+        width: 80%;
+    }
+}
+@media screen and (min-width: 738px) {
+    .centered-line {
+        width: 40%;
+    }
+}
+@media screen and (min-width: 967px) {
+    .centered-line {
+        width: 350px;
+    }
 }
 /*-----HEADER AND NAVIGATION BAR -------*/
 header {
@@ -115,25 +136,6 @@ header {
     }
 }
 
-.line {
-    margin: 0 auto;
-    height: 4px;
-    width: 60%;
+.line1 {
     background-color: lighten($color-primary-3, 50%);
-}
-@media screen and (max-width: 737px) and (orientation:landscape) {
-  .line {
-    width: 80%;
-  }
-}
-@media screen and (min-width: 738px) {
-  .line {
-    width: 40%;
-  }
-}
-
-@media screen and (min-width: 967px) {
-  .line {
-    width: 350px;
-  }
 }
