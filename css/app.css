@@ -5012,8 +5012,8 @@ tbody.collapse.in {
   }
 }
 .navbar-default {
-  background-color: #022558;
-  border-color: #011737;
+  background-color: #4273A3;
+  border-color: #38628b;
 }
 .navbar-default .navbar-brand {
   color: #fff;
@@ -5034,7 +5034,7 @@ tbody.collapse.in {
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
   color: #555;
-  background-color: #011737;
+  background-color: #38628b;
 }
 .navbar-default .navbar-nav > .disabled > a, .navbar-default .navbar-nav > .disabled > a:hover, .navbar-default .navbar-nav > .disabled > a:focus {
   color: #ccc;
@@ -5051,10 +5051,10 @@ tbody.collapse.in {
 }
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
-  border-color: #011737;
+  border-color: #38628b;
 }
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
-  background-color: #011737;
+  background-color: #38628b;
   color: #555;
 }
 @media (max-width: 767px) {
@@ -5067,7 +5067,7 @@ tbody.collapse.in {
   }
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
     color: #555;
-    background-color: #011737;
+    background-color: #38628b;
   }
   .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a, .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:focus {
     color: #ccc;
@@ -5091,29 +5091,29 @@ tbody.collapse.in {
 }
 
 .navbar-inverse {
-  background-color: #022558;
-  border-color: #011026;
+  background-color: #4273A3;
+  border-color: #33597f;
 }
 .navbar-inverse .navbar-brand {
-  color: #2d80f9;
+  color: #fff;
 }
 .navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus {
   color: #fff;
   background-color: transparent;
 }
 .navbar-inverse .navbar-text {
-  color: #043a89;
+  color: #4273A3;
 }
 .navbar-inverse .navbar-nav > li > a {
-  color: #2d80f9;
+  color: #fff;
 }
 .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
-  color: #e0ecfd;
-  background-color: transparent;
+  color: #164979;
+  background-color: #fff;
 }
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
-  color: #e0ecfd;
-  background-color: #011026;
+  color: #fff;
+  background-color: #164979;
 }
 .navbar-inverse .navbar-nav > .disabled > a, .navbar-inverse .navbar-nav > .disabled > a:hover, .navbar-inverse .navbar-nav > .disabled > a:focus {
   color: #444;
@@ -5130,29 +5130,29 @@ tbody.collapse.in {
 }
 .navbar-inverse .navbar-collapse,
 .navbar-inverse .navbar-form {
-  border-color: #011635;
+  border-color: #38618a;
 }
 .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
-  background-color: #011026;
-  color: #e0ecfd;
+  background-color: #164979;
+  color: #fff;
 }
 @media (max-width: 767px) {
   .navbar-inverse .navbar-nav .open .dropdown-menu > .dropdown-header {
-    border-color: #011026;
+    border-color: #33597f;
   }
   .navbar-inverse .navbar-nav .open .dropdown-menu .divider {
-    background-color: #011026;
+    background-color: #33597f;
   }
   .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
-    color: #2d80f9;
+    color: #fff;
   }
   .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus {
-    color: #e0ecfd;
-    background-color: transparent;
+    color: #164979;
+    background-color: #fff;
   }
   .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a, .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:focus {
-    color: #e0ecfd;
-    background-color: #011026;
+    color: #fff;
+    background-color: #164979;
   }
   .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a, .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:hover, .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:focus {
     color: #444;
@@ -5160,16 +5160,16 @@ tbody.collapse.in {
   }
 }
 .navbar-inverse .navbar-link {
-  color: #2d80f9;
+  color: #fff;
 }
 .navbar-inverse .navbar-link:hover {
-  color: #e0ecfd;
+  color: #164979;
 }
 .navbar-inverse .btn-link {
-  color: #2d80f9;
+  color: #fff;
 }
 .navbar-inverse .btn-link:hover, .navbar-inverse .btn-link:focus {
-  color: #e0ecfd;
+  color: #164979;
 }
 .navbar-inverse .btn-link[disabled]:hover, .navbar-inverse .btn-link[disabled]:focus, fieldset[disabled] .navbar-inverse .btn-link:hover, fieldset[disabled] .navbar-inverse .btn-link:focus {
   color: #444;
@@ -10398,6 +10398,10 @@ body {
   font-family: "source-sans-pro", Helvetica, Arial, sans-serif;
 }
 
+ul > li {
+  list-style-type: none;
+}
+
 /*-----ROWS, TITLES -----*/
 .row {
   margin-left: 0;
@@ -10409,7 +10413,7 @@ body {
   padding: 0;
   font-size: 2.250em;
   font-weight: 300;
-  color: #0f1025;
+  color: #000;
   text-transform: uppercase;
   display: block;
   text-align: center;
@@ -10421,6 +10425,7 @@ body {
   margin: 0 auto;
   width: 60%;
   height: 4px;
+  background-color: #f08b65;
 }
 
 @media screen and (max-width: 737px) and (orientation: landscape) {
@@ -10441,7 +10446,7 @@ body {
 /*-----HEADER AND NAVIGATION BAR -------*/
 header {
   background: #fff;
-  background-image: linear-gradient(rgba(4, 29, 65, 0.5), rgba(52, 84, 132, 0.5)), url("../images/image1.jpeg");
+  background-image: linear-gradient(rgba(22, 73, 121, 0.4), rgba(22, 73, 121, 0.4)), url("../images/image1.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
@@ -10462,7 +10467,7 @@ header {
 .navbar .navbar-nav > li {
   padding-top: 5px;
   font-size: 1.6rem;
-  letter-spacing: 0.2rem;
+  letter-spacing: 0.1rem;
 }
 .navbar .navbar-nav > li > a {
   -webkit-transition: all, 0.3s;
@@ -10512,10 +10517,6 @@ header {
   text-align: center;
   word-spacing: 0.7rem;
   padding-left: 5px;
-}
-
-.line1 {
-  background-color: #5093f4;
 }
 
 /*---- ABOUT ME ---- */

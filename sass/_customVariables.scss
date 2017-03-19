@@ -15,11 +15,15 @@ $main_serif_font: "source-serif-pro", "Times New Roman", Times, serif;
 //== Colors
 // As hex codes */
 
-$color-primary-0: #0D2C5A;	// Main Primary color */
-$color-primary-1: #345484;
-$color-primary-2: #1E3F70;
-$color-primary-3: #041D41;
-$main-color: lighten(#011026, 10%);
+// As hex codes */
+
+$main-color: #4273A3;	// Main Primary color */
+$color-primary-1: #97BADB;
+$color-primary-2: #6593BF;
+$color-primary-3: #2A6094;
+$color-primary-4: #164979;
+
+
 //
 //## Gray and brand colors for use across Bootstrap.
 
@@ -410,16 +414,16 @@ $navbar-default-toggle-border-color:       #ddd !default;
 
 //=== Inverted navbar
 // Reset inverted navbar basics
-$navbar-inverse-color:                      lighten($main-color, 10%) !default;
+$navbar-inverse-color:                      $main-color !default;
 $navbar-inverse-bg:                         $main-color !default;
 $navbar-inverse-border:                     darken($navbar-inverse-bg, 10%) !default;
 
 // Inverted navbar links
-$navbar-inverse-link-color:                 lighten($main-color, 40%) !default;
-$navbar-inverse-link-hover-color:           lighten(#041D41, 80%) !default;
-$navbar-inverse-link-hover-bg:              transparent !default;
-$navbar-inverse-link-active-color:          $navbar-inverse-link-hover-color !default;
-$navbar-inverse-link-active-bg:             darken($navbar-inverse-bg, 10%) !default;
+$navbar-inverse-link-color:                 #fff !default;
+$navbar-inverse-link-hover-color:           $color-primary-4 !default;
+$navbar-inverse-link-hover-bg:              #fff !default;
+$navbar-inverse-link-active-color:          #fff !default;
+$navbar-inverse-link-active-bg:             $color-primary-4 !default;
 $navbar-inverse-link-disabled-color:        #444 !default;
 $navbar-inverse-link-disabled-bg:           transparent !default;
 
