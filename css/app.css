@@ -10531,4 +10531,21 @@ header {
   height: 100%;
 }
 
+/*--- SKILLS ----*/
+.skills_part1 {
+  text-align: center;
+}
+
+.circle {
+  border: 2px solid black;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+}
+
+#skills h2 {
+  text-align: center;
+}
+
 /*# sourceMappingURL=app.css.map */
